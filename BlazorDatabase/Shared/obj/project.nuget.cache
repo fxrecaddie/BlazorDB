@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2D7b4JDj0XWN+QRBnxcmmp8pQ3uYK59if7TwoFK/8CnuA9pJjtMRpMsJai5lIG1f3qkmq53Ayzgq98Sa6qyGUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jojii\\OneDrive\\Документы\\Projects\\c#\\Blazor\\Exc\\BlazorDatabase\\BlazorDatabase\\Shared\\BlazorDatabase.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jojii\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

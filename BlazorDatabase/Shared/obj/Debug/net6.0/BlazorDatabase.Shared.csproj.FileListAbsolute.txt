@@ -1,0 +1,12 @@
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\bin\Debug\net6.0\BlazorDatabase.Shared.deps.json
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\bin\Debug\net6.0\BlazorDatabase.Shared.dll
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\bin\Debug\net6.0\BlazorDatabase.Shared.pdb
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\obj\Debug\net6.0\BlazorDatabase.Shared.csproj.AssemblyReference.cache
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\obj\Debug\net6.0\BlazorDatabase.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\obj\Debug\net6.0\BlazorDatabase.Shared.AssemblyInfoInputs.cache
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\obj\Debug\net6.0\BlazorDatabase.Shared.AssemblyInfo.cs
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\obj\Debug\net6.0\BlazorDatabase.Shared.csproj.CoreCompileInputs.cache
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\obj\Debug\net6.0\BlazorDatabase.Shared.dll
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\obj\Debug\net6.0\refint\BlazorDatabase.Shared.dll
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\obj\Debug\net6.0\BlazorDatabase.Shared.pdb
+C:\Users\jojii\OneDrive\Документы\Projects\c#\Blazor\Exc\BlazorDatabase\BlazorDatabase\Shared\obj\Debug\net6.0\ref\BlazorDatabase.Shared.dll

@@ -1,0 +1,91 @@
+﻿@page "/counter"
+@using BlazorDatabase.Shared
+@inject HttpClient httpClient;
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<br/>
+
+@if (personList != null && personList.Count != 0)
+{
+    <table class="table table-bordered">
+        <thead>
+           <tr>
+               <td>Name</td>
+               <td>Id</td>
+               <td>Name</td>
+               <td>Delete</td>
+           </tr> 
+        </thead>
+
+        <tbody>
+            @foreach(var person in personList)
+            {
+                <tr>
+                    <td>@person.Id</td>
+                    <td>@person.Name</td>
+                    <td>@person.SurName</td>
+                    <td>
+                        <button @onclick="async()=> {await DeletePerson(person.Id);}">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}
+else
+{
+    <span>No data</span>
+}
+<br />
+<br />
+<br />
+<input @bind="person.Id" placeholder="Id"/>
+<input @bind="person.Name" placeholder="Name"/>
+<input @bind="person.SurName" placeholder="Surname"/>
+<br />
+<button @onclick="AddPerson">Add</button>
+
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+
+    private List<Person>? personList;
+    private Person person = new Person();
+
+    protected override async Task OnInitializedAsync()
+    {
+        personList = await httpClient.GetFromJsonAsync<List<Person>>("api/Person/GetPerson");
+        await base.OnInitializedAsync();
+    }
+
+    private async Task DeletePerson(string personId)
+    {
+        await httpClient.DeleteAsync($"api/Person/DeletePerson?personId={personId}");
+        personList = await httpClient.GetFromJsonAsync<List<Person>>("api/Person/GetPerson");
+    }
+
+    private async Task AddPerson()
+    {
+        await httpClient.PostAsJsonAsync<Person>("api/Person/AddPerson", person);
+        personList = await httpClient.GetFromJsonAsync<List<Person>>("api/Person/GetPerson");
+    }
+
+
+
+}
